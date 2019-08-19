@@ -1,0 +1,27 @@
+{
+  "name": "battery-status-icon",
+  "version": "1.0.0",
+  "description": "Web component to create battery level icons, based on LitElement",
+  "main": "battery-status-icon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josecdomber/battery-status-icon.git"
+  },
+  "keywords": [
+    "Webcomponents",
+    "LitElement",
+    "JavaScript"
+  ],
+  "author": "Jcdomber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josecdomber/battery-status-icon/issues"
+  },
+  "homepage": "https://github.com/josecdomber/battery-status-icon#readme",
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  }
+}
