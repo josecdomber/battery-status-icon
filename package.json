@@ -2,7 +2,7 @@
   "name": "battery-status-icon",
   "version": "1.0.0",
   "description": "Web component to create battery level icons, based on LitElement",
-  "main": "battery-status-icon.js",
+  "main": "jcdb-battery-status-icon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
