@@ -6,6 +6,7 @@ Web component to create battery level icons, based on LitElement.
 
 ```
 npm install jcdb-battery-status-icon
+```
 
 ## Import the component
 
@@ -13,7 +14,6 @@ npm install jcdb-battery-status-icon
 
 ```
 <script src="./node_modules/jcdb-battery-status-icon/jcdb-battery-status-icon.js" type="module"></script>
-
 ```
 
 ### ... or into your module script
@@ -21,8 +21,6 @@ npm install jcdb-battery-status-icon
 ```
 import 'jcdb-battery-status-icon/jcdb-battery-status-icon';
 ```
-
-
 ## Use the component
 
 ```
@@ -56,3 +54,11 @@ The icon property accepts the battery status icons listed below:
 
 Note that the name of the icon is always in lowercase.
 
+## Custom styles
+
+You can customize the icon styles using CSS Custom Styles.
+
+Custom property | Description | Default
+----------------|-------------|---------
+--jcdb-battery-status-icon-size | Font size for the icon | 24px
+--jcdb-battery-status-icon-color | Color for the icon | #888
