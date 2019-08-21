@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/josecdomber/battery-status-icon#readme",
   "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.10",
     "lit-element": "^2.2.1"
   }
 }

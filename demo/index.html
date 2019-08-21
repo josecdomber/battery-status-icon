@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Battery status icons Demo</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        button {
+            width: 100px;
+            height: 30px;
+            border: 2px solid #111;
+            border-radius: 10px;
+        }
+
+        input {
+            border: none;
+            border-bottom: 2px solid #111;
+        }
+
+        jcdb-battery-status-icon {
+            --jcdb-battery-status-icon-color: #111;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>jcdb-battery-status-icon Demo</h1>
+
+    <h2>Icons and styles availables:</h2>
+
+    <p>
+        <input placeholder="Play color icon" type="text" name="color" id="color">
+        <span>e.g.: red, green, #888, #789,...</span>
+    </p>
+    <p>
+        <input placeholder="Play size icon" type="text" name="size" id="size">
+        <span>e.g.: 25px, 50px, 1.5em, 4em,...</span>
+    </p>
+    <p>
+        <input placeholder="play with an available icon" type="text" name="nameIcon" id="nameIcon">
+        <span>e.g.: battery_full, battery_charging_50, battery_unknow,...</span>
+    </p>
+    <p>
+        <button id="playIt">Play it!</button>
+    </p>
+
+    <p>
+        <jcdb-battery-status-icon id="iconStatus" icon="battery_30"></jcdb-battery-status-icon>
+    </p>
+
+    <script>
+        window.onload = function () {
+            document.getElementById('playIt').addEventListener('click', () => {
+                let colorValue = document.getElementById('color').value;
+                let sizeValue = document.getElementById('size').value;
+                let iconValue = document.getElementById('nameIcon').value;
+
+                let element = document.getElementById('iconStatus');
+                element.style.setProperty('--jcdb-battery-status-icon-color', colorValue);
+                element.style.setProperty('--jcdb-battery-status-icon-size', sizeValue);
+                element.setAttribute('icon', iconValue);
+            });
+        }
+    </script>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../jcdb-battery-status-icon.js" type="module"></script>
+</body>
+
+</html>
