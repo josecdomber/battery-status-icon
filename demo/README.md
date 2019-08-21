@@ -16,7 +16,7 @@ npm install jcdb-battery-status-icon
 
 ```
 
-### ...Or into your module script
+### ... or into your module script
 
 ```
 import 'jcdb-battery-status-icon/jcdb-battery-status-icon';
