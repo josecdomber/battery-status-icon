@@ -1,9 +1,6 @@
 # <jcdb-battery-status-icon>
 
 Web component to create battery level icons, based on LitElement.
-```
-<dile-input label="The label" placeholder="Write something..."></dile-input>
-```
 
 # Install
 
