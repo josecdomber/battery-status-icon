@@ -31,11 +31,11 @@ import 'jcdb-battery-status-icon/jcdb-battery-status-icon';
 ></jcdb-battery-status-icon>
 ```
 
-The icon property is used to set the icon you want to show. There are icons to shows the battery status. 
+The icon property is used to set the icon you want to show. There are icons to shows the battery status
 
-## Icons available
+## Icons available:
 
-The icon property accepts the battery status icons listed below:
+The icon property accepts the battery status icons listed below: 
 
 - battery_20
 - battery_30
@@ -56,11 +56,3 @@ The icon property accepts the battery status icons listed below:
 
 Note that the name of the icon is always in lowercase.
 
-## Custom styles
-
-You can customize the icon styles using CSS Custom Styles.
-
-Custom property | Description | Default
-----------------|-------------|---------
---jcdb-battery-status-icon-size | Font size for the icon | 24px
---jcdb-battery-status-icon-color | Color for the icon | #888
