@@ -29,7 +29,7 @@ import 'jcdb-battery-status-icon/jcdb-battery-status-icon';
 ></jcdb-battery-status-icon>
 ```
 
-The icon property is used to set the icon you want to show. There are icons to shows the battery status
+The icon property is used to set the icon you want to show. There are icons to show the battery status
 
 ## Icons available:
 
